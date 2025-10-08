@@ -16,3 +16,25 @@
 .card:hover {
   transform: translateY(-5px);
 }
+
+#testimonios h2 {
+  color: #343a40;
+  font-size: 2.5rem;
+}
+
+#testimonios .card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+#testimonios .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+#testimonios p {
+  color: #6c757d;
+}
+
+#testimonios h6 {
+  color: #212529;
+}
