@@ -1,18 +1,21 @@
-.hero {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-              url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f') center/cover no-repeat;
-  height: 100vh;
+#testimonios h2 {
+  color: #343a40;
+  font-size: 2.5rem;
 }
 
-.hero h1 {
-  font-size: 3rem;
-  font-weight: bold;
+#testimonios .card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.card {
-  transition: transform 0.3s ease;
+#testimonios .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-.card:hover {
-  transform: translateY(-5px);
+#testimonios p {
+  color: #6c757d;
+}
+
+#testimonios h6 {
+  color: #212529;
 }
